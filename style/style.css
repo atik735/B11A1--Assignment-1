@@ -42,7 +42,7 @@
 
 .hero-content{
     background-color: #C6E4D6;
-    padding: 77px 60px;
+    padding: 77px 50px;
     display: flex;
     justify-content: space-around;
     gap: 12px;
@@ -55,10 +55,11 @@
     color: #0E0E0E80;
 }
 .hero-text{
-    font-size: 55px;
+    font-size: 53px;
     font-weight: 700;
     color: #0E0E0E;
-    margin: 20px 0;
+    margin: 10px 0;
+    line-height: 1.5;
 }
 .hero-btn{
     padding: 16px 32px;
