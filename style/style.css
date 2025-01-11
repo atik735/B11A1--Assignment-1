@@ -378,3 +378,72 @@ font-size: 15px;
     color:#000000;
     transition: 1s;
 }
+
+.subscriber{
+    padding: 4rem 0;
+    background-color: #C6E4D6;
+    margin: 77px 0;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}
+.subscriber-title-desc h1{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+}
+
+.subscriber-title-desc p{
+    color: #0E0E0EB2;
+    margin-top: 18px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+.subscriber-input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscriber-input{
+    background-color: white;
+    border-start-start-radius: 8px;
+    border-end-start-radius: 8px;
+    color: #0E0E0E4D;
+    font-size: 15px;
+    width: 50%;
+    padding: 16px 32px;
+}
+.subscriber-input input{
+    border: none;
+    outline: none;
+    padding-right: 24rem;
+    font-size: 15px;
+    color: #0E0E0E4D;
+}
+.subscribe-btn{
+    text-align: center;
+}
+.subscribe-btn button{
+    background-color: #006A50;
+    padding: 14px 32px;
+    border-start-end-radius: 8px;
+    border-end-end-radius: 8px;
+    border: 1px solid #0E0E0E1A;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
+.subscribe-btn button:hover{
+    background-color:#5490F5;
+    color: #000000;
+    transition: 1s;
+}
+.spam-you{
+    font-size: 15px;
+    text-align: center;
+    color: #0E0E0EB2;
+}
