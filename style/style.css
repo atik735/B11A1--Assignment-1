@@ -219,6 +219,87 @@ font-size: 15px;
 
 /* quote section end  */
 
+/* opinion section start  */
+
+.opinion-container{
+    margin-top: 3rem;
+}
+.opinion-container h1{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+.opinion-contents{
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.opinion-que-card{
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E26;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.opinion-que-card .question{
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 19px;
+}
+.opinion-que-card .select-opinion{
+    font-weight: 600;
+    font-size: 19px;
+    color: #0E0E0E;
+}
+
+.all-white-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-white-box .white-card{
+    border: 1px solid #0E0E0E26;
+    width: 100%;
+    padding: 24px;
+    background-color: #FFFFFF1A;
+}
+
+.all-white-box .white-card p{
+    font-weight: 600;
+    font-size: 15px;
+    color: #0E0E0E;
+}
+
+.opinion-btn-icon{
+    border: 1px solid #0E0E0E26;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.opinion-btn{
+    background-color: #C6E4D6;
+    border: 1px solid black;  /* current asle eta thik korte hobe */
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon{
+    width: 15%;
+}
+
+/* opinion section end  */
+
 /* Recent News section start */
 .recent-news{
     margin-top: 48px;
