@@ -97,6 +97,9 @@ main{
     font-size: 15px;
     line-height: 1.5;
 }
+
+/*vision card-section start  */
+
 .vision-cards{
     display: flex; 
     margin-top: 1.75rem;
@@ -179,3 +182,39 @@ font-size: 15px;
    background: #5490F5;
    transition: 1s;
 }
+/* vision card section end  */
+
+/* quote section start  */
+
+.quote-container{
+    padding: 28px;
+    border-radius: 8px;
+    background-color: white;
+}
+.quote{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    padding-top: 24px;
+}
+.quote-text{
+    color: #0E0E0ECC;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.quote-told{
+    margin: 12px 0;
+}
+.dr-yunus{
+    margin-bottom: 4px;
+    color: #0E0E0ECC;
+    font-size: 19px;
+    font-weight: 600;
+}
+.yunus-title{
+    color: #0E0E0E99;
+    font-size: 15px;
+}
+
+/* quote section end  */
