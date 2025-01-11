@@ -77,3 +77,105 @@
     color: black;
     transition: 1s;
 }
+
+
+/* main section start  */
+
+main{
+    width: 1229px;
+    margin: 77px auto;
+}
+
+.vision-title h1{
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #0E0E0E;
+    font-size: 38px;
+}
+.vision-title p{
+    color: #0E0E0EB2;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.vision-cards{
+    display: flex; 
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem; 
+    gap: 2rem; 
+}
+
+.vision-cards .card-1{
+ border-radius: 1rem; 
+background: #5490F533;
+width: 394px;
+padding: 30px;
+border-color: #5490F5;
+}
+.card-heading{
+margin-top: 1.25rem;
+margin-bottom: 1.25rem; 
+font-weight: 700; 
+font-size: 19px;
+color: #0E0E0ECC;
+}
+.card-para{
+margin-bottom: 1.25rem; 
+color: #0E0E0EB2;
+font-size: 15px;
+}
+.card-btn{
+    padding: 10px 19px;
+    background-color: #5490F5;  
+    border-radius: 8px;  
+    color: white;
+    border: none;
+}
+.card-btn:hover {
+    color: #000000; 
+   background: #09A15C;
+   transition: 1s;
+    }
+
+.card-2{
+ border-radius: 1rem; 
+ background: #C6E4D6;
+ width: 394px;
+ padding: 30px;
+ border-color: #09A15C;
+}
+.card-para2{
+margin-bottom: 2.75rem; 
+color: #0E0E0EB2;
+font-size: 15px;
+}
+.card-btn2{
+    padding: 10px 19px;
+    background-color: #09A15C;  
+    border-radius: 8px;  
+    color: white;
+    border: none;
+}
+.card-btn2:hover {
+    color: #000000; 
+   background: #FFC239;
+   transition: 1s;
+}
+.card-3{
+ border-radius: 1rem; 
+ background: #F7EBCF;
+ width: 394px;
+ padding: 30px;
+ border-color: #FFC239;
+}
+.card-btn3{
+    padding: 10px 19px;
+    background-color: #FFC239;  
+    border-radius: 8px;  
+    color: white;
+    border: none;
+}
+.card-btn3:hover {
+   color: #000000; 
+   background: #5490F5;
+   transition: 1s;
+}
