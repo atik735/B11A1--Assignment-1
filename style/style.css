@@ -447,3 +447,28 @@ font-size: 15px;
     text-align: center;
     color: #0E0E0EB2;
 }
+footer{
+    background-color: white; 
+    padding: 12px 0;
+}
+.footer-container{
+    text-align: center;
+}
+.footer-container h1{
+    color: #0E0E0E;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 36px 0;
+}
+.footer-container hr{
+    margin: 0 auto;
+    width: 1077px;
+    border-color: #0E0E0E1A;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 36px 0;
+}
